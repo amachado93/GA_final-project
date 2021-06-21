@@ -28,13 +28,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello, [name]</h1>
+      <header><h1>Directly reactionary</h1></header>
       <nav>
         <li>Card</li>
         <li>You</li>
       </nav>
 
-      <div>
+      <div className="Card">
         {inspiration}
         <p>{activity}</p>
         <button onClick={() => fetchData()}>Get inspired</button>

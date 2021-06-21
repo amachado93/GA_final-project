@@ -1,11 +1,57 @@
+html {
+  background-color: #f7f7f7;
+  color: #575657;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  margin: 0;
+  padding: 1em 2em;
+  color: #fbfbfb;
+  background-color: #141414;
+  font-size: 0.85em;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2em;
+  border-bottom: #575657 1px solid;
 }
 
 nav > li {
   list-style: none;
-  padding: 1em 3em;
+  padding: 1em 2em;
+}
+
+.Card {
+  margin: 5em 2em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 150px;
+  max-height: 150px;
+  border: #575657 1px solid;
+  border-radius: 5px;
+}
+
+.Card h3 {
+  margin: 0;
+  color: #141414;
 }
